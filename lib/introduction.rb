@@ -12,11 +12,9 @@ introduction_with_language_optional(name, language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-name = "Edwin"
+introduction_with_language_optional("Ruby")
 
-introduction_with_language_optional(name, "Ruby")
-
-introduction_with_language_optional(name, "Python")
+introduction_with_language_optional("Python")
 
 
 
